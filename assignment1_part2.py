@@ -6,10 +6,11 @@ class Book:
         self.title= title 
 
     def display(self):  
-        str= self.title+", written by "+self.author
+        str= self.title+", written by "+self.author  # string concat with attributes value 
         print (str)
 
 def main():
+    #initialize objets 
     book1 = Book("J. K. Rowling", "Harry Potter and the Goblet of Fire")
     book2 = Book("Walter Scott", "Ivanhoe: A Romance")
 
